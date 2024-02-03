@@ -1,0 +1,9 @@
+ktor:
+  development: true
+  application:
+    modules:
+      - api.ApplicationKt.module
+  deployment:
+    port: 4000
+    watch:
+      - src
